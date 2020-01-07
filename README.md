@@ -10,6 +10,15 @@ as well as working contact forms on the "Contact" page. Hope you enjoy :)
 
 ## Preview
 
+### Home Page
+![Home Page Preview](concepts/Concept-Home.png)
+
+### Blog Page
+
+### Gallery Page
+
+### Contact Page
+
 ## Future Adaptations
 This was my first full site that I successfully implemented, and so looking back on it, there are a lot of things I'd change given the time to do so.<br>
 <ul>
