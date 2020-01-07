@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Russo+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Page</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="contact-hero">
+        <header>
+            <div class="header-container">
+                <div class="header-item logo">
+                    <p class="russo"><em class="lato">your</em> LOCAL<br><span class="tourist">VAGABOND</span></p>
+                </div>
+                <div class="header-item nav">
+                    <a class="russo"  href="home.html">Home</a>
+                    <a class="russo"  href="blog.html">Blog</a>
+                    <a class="russo"  href="gallery.html">Gallery</a>
+                    <span class="active-square"><a class="russo active" href="contact.html">Contact</a></span>
+                </div>
+                <div class="header-item-mobile mobile">
+                    <a onclick="mobileNav()"><img id="dropdown-button" class="dropdown-button" src="images/menu-button.svg" alt=""></a>
+                </div>
+            </div>
+            <div id="mobile-dropdown" class="mobile-dropdown mobile">
+                <nav>
+                    <ul id="listItems">
+                        <li><a class="russo" href="home.html"> Home</a></li>
+                        <li><a class="russo" href="blog.html"> Blog</a></li>
+                        <li><a class="russo" href="gallery.html"> Gallery</a></li>
+                        <li><a class="russo active" href="contact.html"> Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="page-header">
+                <p class="lato"><em>a way to</em> <strong class="emphasis russo">  contact me</strong><em></em>
+            </div>
+        </header>
+
+        <!-- CONTACT PAGE DESKTOP/MOBILE -->
+        <div class="contact-container">
+            <div class="contact-item prompt">
+                <p class="input-question russo">Wanna ask me a question?</p>
+                <p class="input-message lato">Just shoot me an email and I'll get back to you!</p>
+            </div>
+            <div class="contact-item input">
+                <form class="" action="index.html" method="post">
+                    <input type="text" value="" placeholder="Name"><br>
+                    <input type="text" value="" placeholder="Email"><br>
+                    <input type="text" value="" placeholder="Title"><br>
+                    <textarea name="name" rows="8" cols="80" placeholder="Your Message"></textarea>
+                </form>
+                <button class="lato" type="button" name="button">Send</button>
+            </div>
+            <div class="contact-item empty"></div>
+        </div>
+    </div>
+
+    <!-- FOOTER MOBILE -->
+    <footer class="mobile-footer mobile">
+      <div class="footer-top">
+        <div class="footer-socials">
+          <h3>Follow on Social Media</h3>
+          <a class="icon" href="#"><img src="images/icon-facebook.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-insta.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-twitter.svg" alt="" width="30" height="30"></a>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="home.html">Home</a>|</li>
+            <li><a href="blog.html">Blog</a>|</li>
+            <li><a href="gallery.html">Gallery</a>|</li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">@ Copyright 2019 Catchy Title  |  <a class="privacy-policy" href="#">Privacy Policy</a></p>
+      </div>
+    </footer>
+
+    <!-- FOOTER DESKTOP -->
+    <footer class="desktop-footer">
+      <div class="footer-top">
+        <div class="footer-nav">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-socials">
+          <h3 class="lato">Follow on Social Media</h3>
+          <a class="icon" href="#"><img class="icon-image" src="images/icon-facebook.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-insta.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-twitter.svg" alt="" width="30" height="30"></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom lato">
+        <p class="footer-copyright lato">@ Copyright 2019 Catchy Title  |  <a class="privacy-policy lato" href="#">Privacy Policy</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <script src="script.js"></script>
+  </head>
+  <body onload="subscriptionPopup();" onresize="transition();">
+     <header>
+         <div class="header-container">
+             <div class="header-item logo">
+                 <p class="russo"><em class="lato">your</em> LOCAL<br><span class="tourist">VAGABOND</span></p>
+             </div>
+             <div class="header-item nav">
+                 <span class="active-square"><a class="russo active" href="home.html">Home</a></span>
+                 <a class="russo"  href="blog.html">Blog</a>
+                 <a class="russo"  href="gallery.html">Gallery</a>
+                 <a class="russo"  href="contact.html">Contact</a>
+             </div>
+             <div class="header-item-mobile mobile">
+                 <a onclick="mobileNav()"><img id="dropdown-button" class="dropdown-button" src="images/menu-button.svg" alt=""></a>
+             </div>
+         </div>
+         <div id="mobile-dropdown" class="mobile-dropdown mobile">
+             <nav>
+                 <ul id="listItems">
+                     <li><a class="russo active" href="home.html"> Home</a></li>
+                     <li><a class="russo" href="blog.html"> Blog</a></li>
+                     <li><a class="russo" href="gallery.html"> Gallery</a></li>
+                     <li><a class="russo" href="contact.html"> Contact</a></li>
+                 </ul>
+             </nav>
+         </div>
+         <div class="hero-photo" style="width: 100%; height: 900px;">
+             <video class="hero-video" autoplay muted loop style="height: auto; height: 900px; position: absolute; z-index: -1;">
+                 <source class="video" src="images/timelapse-cover.mp4" type="video/mp4">
+                 <source class="video" src="images/timelapse-cover.ogv" type="video/ogg">
+                 <source class="video" src="images/timelapse-cover.webm" type="video/webm">
+             </video>
+             <div class="hero-header-text" style="position: absolute; z-index: 1;">
+                 <h1 id="hero-header" class="hero-header russo">TRAVEL.</h1>
+                 <p id="hero-message" class="hero-message lato">Lorem ipsum dolor sit amet, mucius aperiri quo ad. Minim iuvaret pertinax no cum, electram gloriatur et pri, te vim nusquam dolores definitionem.</p>
+             </div>
+             <div id="promotionOverlay" class="promotionOverlay">
+                 <div id="promotional" class="promotional">
+                     <div class="promo-top">
+                         <div onclick="closePromo();" class="promo-exit">
+                             <img src="images/nav-close-button.svg" alt="">
+                         </div>
+                         <p class="promo-first russo">sign up for our mailing list and receive</p>
+                         <p class="promo-sec russo">15% OFF</p>
+                         <p class="promo-third russo">your first merch purchase!</p>
+                     </div>
+                     <img class="logo-image" src="images/merch-logo.svg" alt="">
+                     <div class="promo-bottom">
+                         <form class="" action="index.html" method="post">
+                             <input class="email-input" type="text" name="" value="" placeholder="email address">
+                             <button type="button" name="button">SUBSCRIBE</button>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </header>
+
+    <!-- FEATURED BLOG POSTS -->
+    <div class="strikethrough-container">
+        <div class="strikethrough-item strike"><p></p></div>
+        <div class="strikethrough-item section-header">
+            <h2 class="section-header russo">Recent Blogs</h2>
+        </div>
+        <div class="strikethrough-item strike"><p></p></div>
+    </div>
+
+    <!-- FEATURED BLOG POSTS DESKTOP -->
+    <div class="featured-blog-container1 desktop">
+        <div class="featured-blog-container2 first">
+            <div class="featured-blog-item">
+                <div class="featured-blog-image">
+                    <img class="recent1" src="images/recent-blog1.jpg" alt="1">
+                    <div class="featured-blog-text text1">
+                      <p class="main-blog-title russo">Blog Post Title</p>
+                      <p class="main-blog-preview lato">Lorem ipsum dolor sit amet, mucius aperiri quo ad. Minim iuvaret pertinax no cum, electram gloriatur et pri, te vim nusquam dolores definitionem...</p>
+                      <a href="single-blog-post.html"><p class="main-blog-read-more lato">Read More</p></a>
+                  </div>
+                </div>
+            </div>
+            <div class="featured-blog-item">
+                <div class="featured-blog-image">
+                    <img class="recent2" src="images/recent-blog3.jpg" alt="2">
+                    <div class="featured-blog-text text3">
+                      <p class="main-blog-title russo">Blog Post Title</p>
+                      <p class="main-blog-preview lato">Lorem ipsum dolor sit amet, mucius aperiri quo ad. Minim iuvaret pertinax no cum, electram gloriatur et pri, te vim nusquam dolores definitionem...</p>
+                      <a href="single-blog-post.html"><p class="main-blog-read-more lato">Read More</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="featured-blog-container2 desktop second">
+            <div class="featured-blog-item">
+                <div class="featured-blog-image">
+                    <img class="recent3" src="images/recent-blog2.jpg" alt="3">
+                    <div class="featured-blog-text text2">
+                      <p class="main-blog-title russo">Blog Post Title</p>
+                      <p class="main-blog-preview lato">Lorem ipsum dolor sit amet, mucius aperiri quo ad. Minim iuvaret pertinax no cum, electram gloriatur et pri, te vim nusquam dolores definitionem...</p>
+                      <a href="single-blog-post.html"><p class="main-blog-read-more lato">Read More</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-blog-item">
+                <div class="featured-blog-image">
+                    <img class="recent4" src="images/recent-blog4.jpg" alt="4">
+                    <div class="featured-blog-text text4">
+                      <p class="main-blog-title russo">Blog Post Title</p>
+                      <p class="main-blog-preview lato">Lorem ipsum dolor sit amet, mucius aperiri quo ad. Minim iuvaret pertinax no cum, electram gloriatur et pri, te vim nusquam dolores definitionem...</p>
+                      <a href="single-blog-post.html"><p class="main-blog-read-more lato">Read More</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEATURED BLOG POSTS MOBILE -->
+    <div class="mobile-featured-blogs mobile">
+        <div class="blog-container">
+            <div class="blog-item">
+              <a href="single-blog-post.html"><img class="blog-image"  src="images/recent-blog1.jpg" alt="" width="300" height="300"></a>
+              <a href="single-blog-post.html"><p class="blog-item-date lato">Oct. 15, 2019</p>
+              <p class="blog-item-title russo">Blog Post Title</p>
+              <p class="blog-item-preview lato">Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum...</p></a>
+          </div>
+            <div class="blog-item">
+              <a href="single-blog-post.html"><img class="blog-image" src="images/recent-blog2.jpg" alt="" width="300" height="300"></a>
+              <a href="single-blog-post.html"><p class="blog-item-date lato">Oct. 15, 2019</p>
+              <p class="blog-item-title russo">Blog Post Title</p>
+              <p class="blog-item-preview lato">Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum...</p></a>
+            </div>
+            <div class="blog-item">
+              <a href="single-blog-post.html"><img class="blog-image"  src="images/recent-blog3.jpg" alt="" width="300" height="300"></a>
+              <a href="single-blog-post.html"><p class="blog-item-date lato">Oct. 15, 2019</p>
+              <p class="blog-item-title russo">Blog Post Title</p>
+              <p class="blog-item-preview lato">Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum...</p></a>
+            </div>
+            <div class="blog-item">
+              <a href="single-blog-post.html"><img class="blog-image"  src="images/recent-blog4.jpg" alt="" width="300" height="300"></a>
+              <a href="single-blog-post.html"><p class="blog-item-date lato">Oct. 15, 2019</p>
+              <p class="blog-item-title russo">Blog Post Title</p>
+              <p class="blog-item-preview lato">Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum...</p></a>
+            </div>
+        </div>
+        <div class="mobile-blog-button mobile">
+          <a href="blog.html"><button type="button" name="button">More Blog Posts</button></a>
+        </div>
+    </div>
+
+    <!-- FEATURED GALLERY DESKTOP -->
+    <div class="gallery-section desktop">
+    <div class="strikethrough-container">
+      <div class="strikethrough-item strike"><p></p></div>
+      <div class="strikethrough-item section-header">
+          <h2 class="section-header russo">Gallery</h2>
+      </div>
+      <div class="strikethrough-item strike"><p></p></div>
+    </div>
+    <div class="featured-gallery-container">
+        <div class="featured-gallery-item">
+            <img src="images/gallery1.jpg" alt="" width="300" height="700">
+            <div class="main-gallery-text">
+              <p class="main-gallery-location russo" style="background: rgba(204, 157, 37, 0);">Appalachian Trail</p>
+              <p class="main-gallery-date lato" style="background: rgba(204, 157, 37, 0);"><em>August 2019</em></p>
+              <p><a class="view-gallery lato" href="gallery.html">View Gallery</a></p>
+            </div>
+        </div>
+        <div class="featured-gallery-item">
+            <img src="images/gallery2.jpg" alt="" width="300" height="700">
+            <div class="main-gallery-text">
+              <p class="main-gallery-location russo" style="background: rgba(204, 157, 37, 0);">Juneau, Alaska</p>
+              <p class="main-gallery-date lato" style="background: rgba(204, 157, 37, 0);"><em>August 2019</em></p>
+              <p><a class="view-gallery lato" href="gallery.html">View Gallery</a></p>
+            </div>
+        </div>
+        <div class="featured-gallery-item">
+            <img src="images/gallery3.jpg" alt="" width="300" height="700">
+            <div class="main-gallery-text">
+              <p class="main-gallery-location russo" style="background: rgba(204, 157, 37, 0);">Phuket, Thailand</p>
+              <p class="main-gallery-date lato" style="background: rgba(204, 157, 37, 0);"><em>August 2019</em></p>
+              <p><a class="view-gallery lato" href="gallery.html">View Gallery</a></p>
+            </div>
+        </div>
+        <div class="featured-gallery-item">
+            <img src="images/gallery4.jpg" alt="" width="300" height="700">
+            <div class="main-gallery-text">
+              <p class="main-gallery-location russo" style="background: rgba(204, 157, 37, 0);">Berlin, Germany</p>
+              <p class="main-gallery-date lato" style="background: rgba(204, 157, 37, 0);"><em>August 2019</em></p>
+              <p><a class="view-gallery lato" href="gallery.html">View Gallery</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- FEATURED GALLERY MOBILE -->
+    <div class="gallery-preview-mobile mobile">
+        <div class="strikethrough-container">
+          <div class="strikethrough-item strike"><p></p></div>
+          <div class="strikethrough-item section-header">
+              <h2 class="section-header russo">Gallery</h2>
+          </div>
+          <div class="strikethrough-item strike"><p></p></div>
+        </div>
+          <div class="mobile-gallery">
+            <table class="mobile-gallery-table">
+              <tr>
+                <td rowspan="2">
+                  <a href="#"><img src="images/gallery1.jpg" alt="" width="187.5" height="400"></a>
+                </td>
+                <td>
+                  <a href="#"><img src="images/recent-blog4.jpg" alt="" width="187.5" height="187.5"></a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#"><img src="images/gallery3.jpg" alt="" width="187.5" height="187.5"></a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="mobile-gallery-button mobile">
+            <a href="gallery.html"><button type="button" name="button">View Gallery</button></a>
+          </div>
+    </div>
+
+    <!-- EMAIL SUBSCRIPTION -->
+
+    <!-- FOOTER MOBILE -->
+    <footer class="mobile-footer mobile">
+      <div class="footer-top">
+        <div class="footer-socials">
+          <h3>Follow on Social Media</h3>
+          <a class="icon" href="#"><img src="images/icon-facebook.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-insta.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-twitter.svg" alt="" width="30" height="30"></a>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="home.html">Home</a>|</li>
+            <li><a href="blog.html">Blog</a>|</li>
+            <li><a href="gallery.html">Gallery</a>|</li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">@ Copyright 2019 Catchy Title  |  <a class="privacy-policy" href="#">Privacy Policy</a></p>
+      </div>
+    </footer>
+
+    <!-- FOOTER DESKTOP -->
+    <footer class="desktop-footer desktop">
+      <div class="footer-top">
+        <div class="footer-nav">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-socials">
+          <h3 class="lato">Follow on Social Media</h3>
+          <a class="icon" href="#"><img class="icon-image" src="images/icon-facebook.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-insta.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-twitter.svg" alt="" width="30" height="30"></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom lato">
+        <p class="footer-copyright lato">@ Copyright 2019 Catchy Title  |  <a class="privacy-policy lato" href="#">Privacy Policy</a></p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  </body>
+</html>

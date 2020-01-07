@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Single Blog Post</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="text/javascript" src="comments.json"></script>
+  </head>
+  <body onload="displayComments();" onload="slideShow();">
+    <header>
+        <div class="header-container">
+            <div class="header-item logo">
+                <p class="russo"><em class="lato">your</em> LOCAL<br><span class="tourist">VAGABOND</span></p>
+            </div>
+            <div class="header-item nav">
+                <span class="active-square"><a class="russo active" href="home.html">Home</a></span>
+                <a class="russo"  href="blog.html">Blog</a>
+                <a class="russo"  href="gallery.html">Gallery</a>
+                <a class="russo"  href="contact.html">Contact</a>
+            </div>
+            <div class="header-item-mobile mobile">
+                <a onclick="mobileNav()"><img id="dropdown-button" class="dropdown-button" src="images/menu-button.svg" alt=""></a>
+            </div>
+        </div>
+        <div id="mobile-dropdown" class="mobile-dropdown mobile">
+            <nav>
+                <ul id="listItems">
+                    <li><a class="russo" href="home.html"> Home</a></li>
+                    <li><a class="russo active" href="blog.html"> Blog</a></li>
+                    <li><a class="russo" href="gallery.html"> Gallery</a></li>
+                    <li><a class="russo" href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="page-header">
+            <p class="lato"><em>a wee</em> <strong class="emphasis russo">  blog post</strong><em></em>
+        </div>
+    </header>
+
+    <!-- Blog Page Cover Photo -->
+    <div class="blog-image-overlay">
+        <img src="images/recent-blog3.jpg" alt="" height="600">
+        <div class="purple-stripe">
+        </div>
+        <div class="single-blog-post-text">
+            <p class="single-blog-post-title">Some Whitty Blog Post Title</p>
+            <p class="single-blog-post-date">4 October, 2019</p>
+        </div>
+    </div>
+
+    <!-- SINGLE BLOG POST PAGE DESKTOP -->
+    <div class="article-wrapper-desktop lato">
+        <div class="article-intro">
+            <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam
+               sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas
+               congue quisque egestas.</em></p>
+        </div>
+        <div class="section1-container">
+            <div class="section1-image">
+                <div class="description-overlay">
+                    <img src="images/gallery9.jpg" alt="">
+                    <div class="description-text1">
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section1-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+        </div>
+        <div class="section2-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl.  </p>
+        </div>
+    </div>
+
+    <div class="section3-container">
+        <div class="section3-item">
+            <div class="description-overlay">
+                <img src="images/gallery8.jpg" alt="">
+                <div class="description-text2">
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+        <div class="section3-item">
+            <div class="description-overlay">
+                <img src="images/image14.jpg" alt="">
+                <div class="description-text2">
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="article-wrapper-desktop lato">
+        <div class="section4-container">
+            <div class="section4-image">
+                <div class="description-overlay">
+                    <img src="images/gallery7.jpg" alt="">
+                    <div class="description-text3">
+                        <p>Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section4-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+        </div>
+        <div class="section5-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. </p>
+        </div>
+    </div>
+
+    <!-- SINGLE BLOG POST PAGE MOBILE -->
+    <div class="article-wrapper-mobile mobile">
+        <p class="article-intro"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam
+           sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas
+           congue quisque egestas.</em></p>
+           <div class="mobile-description-overlay">
+               <img class="section1-image" src="images/gallery9.jpg" alt="">
+                <div class="mobile-description-text lato">
+                    <p>Description</p>
+                </div>
+           </div>
+        <p class="section1-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        <p class="section2-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl.  </p>
+    </div>
+    <div class="mobile-description-overlay mobile">
+        <img class="section3-image mobile-image" src="images/gallery8.jpg" alt="">
+        <div class="mobile-description-text2 lato">
+            <p>Description</p>
+        </div>
+    </div>
+    <div class="mobile-description-overlay mobile">
+        <img class="section3-image mobile-image" src="images/gallery6.jpg" alt="">
+        <div class="mobile-description-text2 lato">
+            <p>Description</p>
+        </div>
+    </div>
+    <div class="article-wrapper-mobile mobile">
+        <p class="section4-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        <div class="mobile-description-overlay">
+            <img class="section4-image" src="images/gallery7.jpg" alt="">
+            <div class="mobile-description-text">
+                <p>Description</p>
+            </div>
+        </div>
+        <p class="section5-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a. In eu mi bibendum neque egestas congue quisque egestas. Pellentesque elit eget gravida cum sociis natoque. Lacus viverra vitae congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In fermentum et sollicitudin ac. Tortor at risus viverra adipiscing at in. Ut sem nulla pharetra diam sit amet nisl. </p>
+    </div>
+
+    <!-- RECOMMENDED BLOGS DESKTOP -->
+    <div class="other-blogs">
+        <div class="strikethrough-container">
+            <div class="strikethrough-item strike"><p></p></div>
+            <div class="strikethrough-item section-header">
+                <h2 class="section-header russo">Other Posts</h2>
+            </div>
+            <div class="strikethrough-item strike"><p></p></div>
+        </div>
+      <table class="other-blogs-table">
+        <tr>
+          <td>
+            <div class="other-overlay">
+              <img src="images/gallery5.jpg" alt="" width="300" height="400">
+              <div class="other-text">
+                <p class="other-blog-title">Blog Post Title</p>
+                <a href="blog.html"><p class="read-more"><em>Read More</em></p></a>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="other-overlay">
+              <img src="images/gallery3.jpg" alt="" width="300" height="400">
+              <div class="other-text">
+                <p class="other-blog-title">Blog Post Title</p>
+                <a href="blog.html"><p class="read-more"><em>Read More</em></p></a>
+              </div>
+            </div>
+          </td>
+          <td><div class="other-overlay">
+            <img src="images/gallery6.jpg" alt="" width="300" height="400">
+            <div class="other-text">
+              <p class="other-blog-title">Blog Post Title</p>
+              <a href="blog.html"><p class="read-more"><em>Read More</em></p></a>
+            </div>
+          </div>
+        </td>
+        <td><div class="other-overlay">
+          <img src="images/gallery2.jpg" alt="" width="300" height="400">
+          <div class="other-text">
+            <p class="other-blog-title">Blog Post Title</p>
+            <a href="blog.html"><p class="read-more"><em>Read More</em></p></a>
+          </div>
+        </div>
+      </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- RECOMMENDED BLOGS MOBILE -->
+    <div class="other-blogs-mobile mobile">
+        <div class="strikethrough-container">
+            <div class="strikethrough-item strike"><p></p></div>
+            <div class="strikethrough-item section-header">
+                <h2 class="section-header russo">Other Posts</h2>
+            </div>
+            <div class="strikethrough-item strike"><p></p></div>
+        </div>
+      <table class="slideshow-table mobile">
+        <tr>
+          <td class="arrow-td">
+            <img class="first-arrow" onclick="changeImage(-1)" src="images/arrow-left.svg" alt="">
+          </td>
+          <td class="slide-td">
+            <div class="allslides">
+              <a href="single-blog-post.html">
+              <div class="slideshow-container fade">
+                <div class="slideshow-overlay">
+                  <img class="slideshow-image fade" id="slideshow-image" src="images/gallery5.jpg" alt="">
+                  <div class="text">
+                    <p>Are you Entertained Yet?</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+          </td>
+          <td class="arrow-td">
+            <img class="second-arrow" onclick="changeImage(1)" src="images/arrow-right.svg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td class="dot-row" colspan="3">
+            <ul>
+              <li><img class="dot" src="images/active-dot.svg" alt="" width="10" height="10"> </li>
+              <li><img class="dot" src="images/non-active-dot.svg" alt="" width="10" height="10"> </li>
+              <li><img class="dot" src="images/non-active-dot.svg" alt="" width="10" height="10"> </li>
+              <li><img class="dot" src="images/non-active-dot.svg" alt="" width="10" height="10"> </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- FOOTER MOBILE -->
+    <footer class="mobile-footer mobile">
+      <div class="footer-top">
+        <div class="footer-socials">
+          <h3>Follow on Social Media</h3>
+          <a class="icon" href="#"><img src="images/icon-facebook.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-insta.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-twitter.svg" alt="" width="30" height="30"></a>
+        </div>
+        <div class="footer-nav">
+          <ul>
+            <li><a href="home.html">Home</a>|</li>
+            <li><a href="blog.html">Blog</a>|</li>
+            <li><a href="gallery.html">Gallery</a>|</li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">@ Copyright 2019 Catchy Title  |  <a class="privacy-policy" href="#">Privacy Policy</a></p>
+      </div>
+    </footer>
+
+    <!-- FOOTER DESKTOP -->
+    <footer class="desktop-footer">
+      <div class="footer-top">
+        <div class="footer-nav">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-socials">
+          <h3 class="lato">Follow on Social Media</h3>
+          <a class="icon" href="#"><img class="icon-image" src="images/icon-facebook.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-insta.svg" alt="" width="30" height="30"></a>
+          <a class="icon" href="#"><img src="images/icon-twitter.svg" alt="" width="30" height="30"></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom lato">
+        <p class="footer-copyright lato">@ Copyright 2019 Catchy Title  |  <a class="privacy-policy lato" href="#">Privacy Policy</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
