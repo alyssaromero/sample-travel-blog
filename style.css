@@ -127,6 +127,10 @@ html {
   padding: 20px;
 }
 
+.footer-socials {
+  margin-bottom: 20px;
+}
+
 .icon:hover img {
   transform: scale(1.2);
   transition: 0.8s ease;
